@@ -1,0 +1,3 @@
+/Users/acd23/code/skyrmion-cpp/cmake-build-debug/CMakeFiles/skyrmion_cpp.dir
+/Users/acd23/code/skyrmion-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/acd23/code/skyrmion-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
