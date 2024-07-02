@@ -1,17 +1,22 @@
 #ifndef SPINS_H
 #define SPINS_H
 
+#include <vector>
+
 class Spins {
 public:
-    Spins(Vector n, Vector value);
+    Spins(std::vector<int> n, std::vector<float> value = {0.0f, 0.0f, 1.0f});
 
     float mean();
-
     float abs();
+    void normalise();
+    void randomise();
 
-    float normalise();
+private:
+    std::vector<int> n;
+    std::vector<float> array;
 
-    float randomise();
+    float computeMagnitude(size_t index) const;
 };
 
-#endif
+#endif // SPINS_H
